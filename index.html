@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rahul ❤️ Sneha</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont;
+      text-align: center;
+      margin-top: 100px;
+    }
+    button {
+      font-size: 18px;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sneha, will you be my Valentine?</h1>
+  <p>— Rahul</p>
+
+  <button onclick="yes()">Yes</button>
+  <button onclick="no()">No</button>
+
+  <h2 id="response"></h2>
+
+  <script>
+    function yes() {
+      document.getElementById("response").innerHTML =
+        "YAY! 🎆💖 Rahul & Sneha forever.";
+    }
+    function no() {
+      document.getElementById("response").innerHTML =
+        "No? Come on… love always finds a way 😉";
+    }
+  </script>
+
+</body>
+</html>
